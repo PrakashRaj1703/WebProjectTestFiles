@@ -5,6 +5,26 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Day {
+	private void pattern2() {
+		for (int i = 1; i <= 5; i++) {
+			for (int j = 6; j > i; j--) {
+				System.out.print(" ");
+			}
+			for (int j = 1; j <= i; j++) {
+				System.out.print(j + " ");
+			}
+			System.out.println("");
+		}
+		for (int i = 4; i >= 0; i--) {
+			for (int j = 6; j > i; j--) {
+				System.out.print(" ");
+			}
+			for (int j = 1; j <= i; j++) {
+				System.out.print(j + " ");
+			}
+			System.out.println(" ");
+		}
+	}
 	private void tc1() {
 		int a = 100;
 		int b = 50;

@@ -5,16 +5,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Day {
-	
-	private void tc1() {
-		int a = 100;
-		int b = 50;
-		a = a + b;
-		b = a - b;
-		a = a - b;
-		System.out.println(a);
-		System.out.println(b);
-	}
 
 	private void tc2() {
 		int a = 100;

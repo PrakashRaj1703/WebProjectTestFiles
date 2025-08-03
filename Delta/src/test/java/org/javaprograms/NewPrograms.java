@@ -1,11 +1,13 @@
 package org.javaprograms;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
+import java.util.TreeSet;
 
 public class NewPrograms {
 	private void tc1() {
@@ -192,7 +194,7 @@ public class NewPrograms {
 		l.add("test");
 		l.add("One Test");
 		System.out.println(l);
-		Set<Object> se = new LinkedHashSet<>(l);
+		Set<Object> se = new HashSet<Object>(l);
 		System.out.println("Set " + se);
 	}
 
